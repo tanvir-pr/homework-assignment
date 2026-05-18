@@ -1,0 +1,123 @@
+body {
+    background:
+        radial-gradient(circle at 10% 20%, rgba(255, 159, 67, 0.25), transparent 35%),
+        radial-gradient(circle at 90% 10%, rgba(255, 107, 107, 0.2), transparent 40%),
+        linear-gradient(135deg, #fff5eb 0%, #ffe8cc 40%, #fff0f6 100%);
+    color: #2d2a32;
+    min-height: 100vh;
+}
+
+.app-navbar {
+    background: linear-gradient(90deg, #d9480f 0%, #f76707 45%, #f59f00 100%);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.nav-link {
+    border-radius: 999px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+.app-hero {
+    background: linear-gradient(120deg, #c92a2a 0%, #e8590c 45%, #faa307 100%);
+}
+
+main > section,
+main > .row,
+main > .p-4,
+main > .table-responsive,
+main > .alert,
+main > div.row {
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 18px;
+    padding: 1.1rem;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(2px);
+}
+
+main > section + section,
+main > .row + section,
+main > section + .row,
+main > .row + .row {
+    margin-top: 1rem;
+}
+
+h2,
+h3 {
+    color: #9c3607;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #e8590c 0%, #f76707 100%);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #2f9e44 0%, #37b24d 100%);
+    border: none;
+}
+
+.btn-warning {
+    border: none;
+}
+
+.btn-danger {
+    border: none;
+}
+
+.form-control,
+.form-select,
+textarea {
+    border-radius: 12px;
+    border: 1px solid #ffd8a8;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    border-color: #ff922b;
+    box-shadow: 0 0 0 0.2rem rgba(255, 146, 43, 0.2);
+}
+
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background: #ffecd1;
+    color: #7a2e00;
+    border-bottom: 2px solid #ffd8a8;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #fff7ed;
+}
+
+img.img-fluid.rounded.border {
+    border: 2px solid #ffd8a8 !important;
+    box-shadow: 0 8px 20px rgba(217, 72, 15, 0.15);
+}
+
+.ratio.border.rounded {
+    border: 2px solid #ffd8a8 !important;
+    box-shadow: 0 8px 20px rgba(217, 72, 15, 0.15);
+}
