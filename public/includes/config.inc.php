@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-
+// data base connect done with host
 const DB_HOST = 'sql308.infinityfree.com';
 const DB_NAME = 'if0_41873288_pizza';
 const DB_USER = 'if0_41873288';
